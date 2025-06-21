@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT"
+            crossorigin="anonymous">
+</head>
+<body>
+    
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-6 offset-3">
+                <div class="card shadow">
+                    <div class="card-header h2 text-bg-success">
+                        Register With us
+                    </div>
+                    <div class="card-body">
+                        <form action="./success.html" method="post">
+                            <div >
+                                <label for="username" class=" form-label">username</label>
+                                <input type="text" name="username" id="username" class=" form-control" placeholder="enter your username here" required>
+                            </div>
+
+                            <div class=" mt-3">
+                                <label for="email" class=" form-label">email</label>
+                                <input type="email" name="email" id="email" placeholder="abc@gmail.com" class=" form-control" required>
+                            </div>
+
+                            <div class=" mt-3">
+                                <label for="password" class=" form-label">password</label>
+                                <input type="password" name="password" id="password" placeholder="ex.123456" class=" form-control" required>
+                            </div>
+
+                           <div class=" text-end">
+                             <button type="submit" class=" btn btn-success mt-3">Register</button>
+
+                             <button type="reset" class=" btn btn-dark mt-3">clear all</button>
+                           </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-6 offset-3">
+                <div class="card shadow">
+                    <div class="card-header text-bg-danger  h3">login</div>
+                    <div class="card-body">
+                        <form action="">
+                            <div class=" d-flex justify-content-between">
+                                <label for="mobile" class=" form-label">mobile</label>
+                                <input type="tel" name="mobile" id="mobile" placeholder=" 1234567890" required class=" form-control w-75"  >
+                            </div>
+
+                            <div class=" d-flex justify-content-between mt-3">
+                                <label for="mobile" class=" form-label">color</label>
+                                <input type="color" name="mobile" id="mobile" placeholder=" 1234567890" required class=" form-control w-75"  >
+                            </div>
+
+                            <div class=" d-flex justify-content-between mt-3" >
+                                <label for="mobile" class=" form-label">date</label>
+                                <input type="date" name="mobile" id="mobile" placeholder=" 1234567890" required class=" form-control w-75"  max="2025-06-25" min="2025-06-21" >
+                            </div>
+
+                            <div class=" d-flex justify-content-between mt-3">
+                                <label for="mobile" class=" form-label">time</label>
+                                <input type="time" name="mobile" id="mobile" placeholder=" 1234567890" required class=" form-control w-75"  >
+                            </div>
+
+                            <div class=" text-end">
+                                <button type="submit" class=" btn btn-dark mt-3 ">
+                                    submit
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+            crossorigin="anonymous"></script>
+</body>
+</html>
