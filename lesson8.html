@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT"
+            crossorigin="anonymous">
+    </head>
+    <body>
+
+        <div class="container-fluid">
+            <div class="row">
+
+                <div class="col-12">
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <form action>
+                                <div class="row">
+                                    <div class="col-3 ">
+                                        <h2 class=" fw-bold text-primary">Book
+                                            Ticket</h2>
+                                    </div>
+
+                                    <div class="col-2">
+                                        <div class=" ">
+                                            <label for="name" class=" form-label fw-bold">name</label>
+                                            <input type="text" name="name"
+                                                id="name" placeholder="name"
+                                                class=" form-control">
+
+                                        </div>
+                                    </div>
+
+                                    <div class="col-2">
+                                        <label for="source" class=" form-label fw-bold">from</label>
+                                        <select name="cast" id="cast"
+                                            class=" form-select">
+                                            <option value="0">select
+                                                city</option>
+                                            <option value="1">bhavnagar</option>
+                                            <option value="2">amreli</option>
+                                            <option value="3">surat</option>
+                                            <option value="4">rajkot</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="col-2">
+                                        <label for="source" class=" form-label fw-bold">to</label>
+                                        <select name="cast" id="cast"
+                                            class=" form-select">
+                                            <option value="0">select
+                                                city</option>
+                                            <option value="1">bhavnagar</option>
+                                            <option value="2">amreli</option>
+                                            <option value="3">surat</option>
+                                            <option value="4">rajkot</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="col-1">
+                                        <div>
+                                            <label for="seat" class="form-label fw-bold">seat</label>
+                                            <input type="number" name="seat" id="seat" class=" form-control">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-2">
+                                        <button class=" btn btn-primary w-100 mt-2">submit</button>
+                                        <button class=" btn btn-outline-dark w-100 mt-2" >clear</button>
+                                    </div>
+
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+            crossorigin="anonymous"></script>
+    </body>
+</html>
